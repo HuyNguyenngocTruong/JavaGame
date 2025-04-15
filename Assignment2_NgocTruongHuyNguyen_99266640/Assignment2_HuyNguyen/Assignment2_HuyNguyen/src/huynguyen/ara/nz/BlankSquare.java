@@ -1,0 +1,13 @@
+package huynguyen.ara.nz;
+
+public class BlankSquare extends Square {
+	@Override
+    public Color getColor() {
+        return Color.BLANK;
+    }
+
+    @Override
+    public Shape getShape() {
+        return Shape.BLANK;
+    }
+}
